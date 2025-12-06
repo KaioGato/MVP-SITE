@@ -29,8 +29,8 @@
   }
 
  body{
-    background-color: var(--gray900);
-    color: var(--white);
+    background: linear-gradient(135deg, var(--blue200), var(--blue700));
+    color: var(--black);
   }
 #container{
     width: 90%;
@@ -43,7 +43,7 @@
 
 #profile{
     border-radius: 10px;
-    background-color: var(--gray800);
+    background-color: var(--white);
     
     margin: 30px;
     padding: 50px;
@@ -67,14 +67,14 @@
 }
 #profile span{
     
-    color: var(--gray200);
+    color: var(--gray900);
     opacity: 0.8;
     font-style: none;
     font-size: 1rem;
 }
 
  ul li{
-    background-color: var(--gray800);  
+    background-color: var(--white);  
     
     border-radius: 10px;
     padding: 20px;
@@ -98,14 +98,14 @@
     align-items: center;
   }
   ul li *{
-    color: var(--gray100);
+    color: var(--black);
     text-decoration: none;
     font-size: 1.5rem;
     padding: 0px 10px;
 
   }
   #Sobre{
-    background-color: #3d3d3d;
+    background-color: var(--blue200);
     text-align: center;
     padding: 10px;
     border-radius: 10px;
