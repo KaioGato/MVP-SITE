@@ -15,7 +15,8 @@
     --blue300: #8dbbfa;
     --blue500: #5376c2;
     --blue700: #2d52a1;
-    --blue900: #0e3994;
+    --blue800: #003ca0;
+    --blue900: #0f2d5f;
 
     --gray-blue300: #6b6f8b;
     --gray-blue500: #4d5276;
@@ -29,8 +30,8 @@
   }
 
  body{
-    background: linear-gradient(135deg, var(--blue200), var(--blue700));
-    color: var(--black);
+    background: linear-gradient(135deg, var(--blue700), var(--blue900));
+    color: var(--blue900);
   }
 #container{
     width: 90%;
@@ -61,6 +62,13 @@
     padding: 20px;
     border-radius: 50%;
     
+  }
+  h1{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: var(--blue900);
+    border-top: 2px solid var(--blue800);
   }
 #profile p{
     font-size: 2rem;
