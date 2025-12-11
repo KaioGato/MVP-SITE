@@ -1,0 +1,66 @@
+
+body{
+    background-color: var();
+    display: grid;
+    place-items: center;
+}
+#event{
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+  
+    width: 1000px;
+    height: 1000px;
+}
+
+#back{
+    display: grid;
+    place-items: center;
+    border-left: 30px transparent;
+    background-color: antiquewhite;
+    
+    margin-top: 15rem;
+    width: 400px;
+    height: 300px;
+}
+
+#textCard{
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+
+    background-color: white;
+    width: 300px;
+    height: 200px;
+
+    transition: 0.5s;
+}
+#event:hover ~ #textCard{
+    transform: translateY(-100px);
+    cursor:pointer;
+    
+}
+
+#front-left{
+    display: flex;
+
+    transform: translateX(-100px) translateY(-100px);
+    
+    border-bottom: 300px solid antiquewhite;
+    
+    height: 200px;
+}
+#front-right{
+    display: flex;
+    position: absolute;
+
+    transform: translateX(100px) translateY(-100px);
+    border-right: 200px solid antiquewhite;
+    border-left: 200px solid antiquewhite;
+    border-bottom: 300px solid transparent;
+    rotate: ;
+    height: 200px;
+    
+    
+
+}
